@@ -16,6 +16,28 @@
       },
       {
         "key": {
+          "uuid": "292A60BE-2806-455C-B5FD-AE974BC97594"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "292A60BE-2806-455C-B5FD-AE974BC97594"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "5ADB7FA9-3009-4E66-9AD4-1B8FDAC8BB1B"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "5ADB7FA9-3009-4E66-9AD4-1B8FDAC8BB1B"
+          }
+        }
+      },
+      {
+        "key": {
           "uuid": "D78AC6F6-EFE8-4966-B61C-BC965BCFC5C2"
         },
         "value": {
@@ -33,6 +55,17 @@
           "@class": "Animation",
           "id": {
             "uuid": "F53002E2-BCA7-4EF0-A075-DBCD6425CB54"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "FF8D76ED-F939-4A71-A598-96CA6B58DEC8"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "FF8D76ED-F939-4A71-A598-96CA6B58DEC8"
           }
         }
       }
@@ -187,6 +220,17 @@
           "@class": "BaseSkinController",
           "id": {
             "uuid": "D0996DEB-4E46-4909-B020-0C1138C4A899"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "F929217B-C2CD-4A52-8513-E8798DBBA443"
+        },
+        "value": {
+          "@class": "BaseSkinController",
+          "id": {
+            "uuid": "F929217B-C2CD-4A52-8513-E8798DBBA443"
           }
         }
       }
