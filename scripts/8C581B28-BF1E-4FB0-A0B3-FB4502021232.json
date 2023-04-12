@@ -1,0 +1,87 @@
+{
+  "@class": "TimeLineScript",
+  "enableOnAwake": false,
+  "id": {
+    "uuid": "8C581B28-BF1E-4FB0-A0B3-FB4502021232"
+  },
+  "is_imported": true,
+  "loop": false,
+  "name": "palka.dae",
+  "priority": 0,
+  "scripts": {
+    "@class": "StdListRuntimeScript",
+    "list": [
+      {
+        "@class": "AnimationScript",
+        "AnimationType": "object3D",
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "target": {
+            "id": {
+              "uuid": "DBA59032-681D-44F3-994F-1DE6BEE10096"
+            },
+            "type": 0
+          }
+        },
+        "animation": {
+          "uuid": "0CEC184A-4AD0-4769-8B0B-2941DF240006"
+        },
+        "enableOnAwake": false,
+        "id": {
+          "uuid": "7818D78B-5C0C-4930-9EDA-F674EA2E885B"
+        },
+        "isEnabled": true,
+        "is_imported": true,
+        "name": "AnimationScript"
+      },
+      {
+        "@class": "AnimationScript",
+        "AnimationType": "object3D",
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "target": {
+            "id": {
+              "uuid": "06BA2CA1-D6CF-4722-AE6C-7A4F16B7BFC0"
+            },
+            "type": 0
+          }
+        },
+        "animation": {
+          "uuid": "F53002E2-BCA7-4EF0-A075-DBCD6425CB54"
+        },
+        "enableOnAwake": false,
+        "id": {
+          "uuid": "25F4C02F-37FC-46F3-A570-0D78C7FA2953"
+        },
+        "isEnabled": true,
+        "is_imported": true,
+        "name": "AnimationScript"
+      },
+      {
+        "@class": "AnimationScript",
+        "AnimationType": "object3D",
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "target": {
+            "id": {
+              "uuid": "F21F99EA-2E11-447F-BA74-50007BE4BBC0"
+            },
+            "type": 0
+          }
+        },
+        "animation": {
+          "uuid": "D78AC6F6-EFE8-4966-B61C-BC965BCFC5C2"
+        },
+        "enableOnAwake": false,
+        "id": {
+          "uuid": "BD8E814A-6AD4-4B74-A6A8-D2ABC5EF946D"
+        },
+        "isEnabled": true,
+        "is_imported": true,
+        "name": "AnimationScript"
+      }
+    ]
+  },
+  "triggers": [],
+  "type": "user"
+}

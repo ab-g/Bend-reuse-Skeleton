@@ -1,5 +1,43 @@
 {
   "@class": "ResourcePack",
+  "animations": {
+    "@class": "StdResourceMapAnimation",
+    "map": [
+      {
+        "key": {
+          "uuid": "0CEC184A-4AD0-4769-8B0B-2941DF240006"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "0CEC184A-4AD0-4769-8B0B-2941DF240006"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "D78AC6F6-EFE8-4966-B61C-BC965BCFC5C2"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "D78AC6F6-EFE8-4966-B61C-BC965BCFC5C2"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "F53002E2-BCA7-4EF0-A075-DBCD6425CB54"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "F53002E2-BCA7-4EF0-A075-DBCD6425CB54"
+          }
+        }
+      }
+    ]
+  },
   "cameras": {
     "@class": "StdResourceMapCamera",
     "map": [
@@ -65,6 +103,17 @@
             "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
           }
         }
+      },
+      {
+        "key": {
+          "uuid": "4FB47194-6240-4945-AC47-868070D20CD9"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "4FB47194-6240-4945-AC47-868070D20CD9"
+          }
+        }
       }
     ]
   },
@@ -79,6 +128,17 @@
           "@class": "Mesh",
           "id": {
             "uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "4BC6C065-850B-4149-B0C9-1034A369A3F4"
+        },
+        "value": {
+          "@class": "Mesh",
+          "id": {
+            "uuid": "4BC6C065-850B-4149-B0C9-1034A369A3F4"
           }
         }
       }
@@ -111,6 +171,22 @@
           "@class": "BaseScene",
           "id": {
             "uuid": "1C435217-1F56-4B14-B162-D5571841CD11"
+          }
+        }
+      }
+    ]
+  },
+  "skinControllers": {
+    "@class": "StdResourceMapSkinController",
+    "map": [
+      {
+        "key": {
+          "uuid": "D0996DEB-4E46-4909-B020-0C1138C4A899"
+        },
+        "value": {
+          "@class": "BaseSkinController",
+          "id": {
+            "uuid": "D0996DEB-4E46-4909-B020-0C1138C4A899"
           }
         }
       }

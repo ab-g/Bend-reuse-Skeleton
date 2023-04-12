@@ -18,7 +18,8 @@
       "children": [
         "D8E1D3DE-2BB8-4152-AD73-D8CFD5761AB5",
         "A0DAFCA4-98B7-44FF-B61E-24DDEDB47BB9",
-        "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2"
+        "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2",
+        "1575A437-881B-4C4E-B476-C528784BCB45"
       ],
       "object3D": {
         "@class": "BaseObject3D",
@@ -235,6 +236,352 @@
         },
         "visible": true
       }
+    },
+    {
+      "@class": "BaseNode",
+      "children": [
+        "E09EB1A3-0A7D-42BD-8A8A-08820746D42E",
+        "FCD4F687-E9E8-42A0-8632-EC7F35B0997B",
+        "DBA59032-681D-44F3-994F-1DE6BEE10096"
+      ],
+      "object3D": {
+        "@class": "BaseObject3D",
+        "enabled": true,
+        "hitVisible": true,
+        "id": {
+          "uuid": "1575A437-881B-4C4E-B476-C528784BCB45"
+        },
+        "metadata": {
+          "importedIdentifier": "bone_3",
+          "importedName": "bone_3",
+          "isBone": false,
+          "tags": []
+        },
+        "name": "palka",
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "enabled": true,
+        "hitVisible": true,
+        "id": {
+          "uuid": "E09EB1A3-0A7D-42BD-8A8A-08820746D42E"
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false,
+          "tags": []
+        },
+        "name": "palka.dae",
+        "timeline": {
+          "@class": "BaseComponentTimeline",
+          "timelineId": {
+            "uuid": "8C581B28-BF1E-4FB0-A0B3-FB4502021232"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "enabled": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "meshId": {
+            "uuid": "4BC6C065-850B-4149-B0C9-1034A369A3F4"
+          },
+          "shadowCast": true,
+          "shadowReceive": true,
+          "skeleton": [
+            {
+              "uuid": "DBA59032-681D-44F3-994F-1DE6BEE10096"
+            },
+            {
+              "uuid": "F21F99EA-2E11-447F-BA74-50007BE4BBC0"
+            },
+            {
+              "uuid": "572D6D23-CE24-4C51-830C-0DE334A575E8"
+            },
+            {
+              "uuid": "06BA2CA1-D6CF-4722-AE6C-7A4F16B7BFC0"
+            }
+          ],
+          "skinControllerId": {
+            "uuid": "D0996DEB-4E46-4909-B020-0C1138C4A899"
+          },
+          "static": false
+        },
+        "hitVisible": true,
+        "id": {
+          "uuid": "FCD4F687-E9E8-42A0-8632-EC7F35B0997B"
+        },
+        "material": {
+          "@class": "BaseComponentMaterial",
+          "materialId": {
+            "uuid": "4FB47194-6240-4945-AC47-868070D20CD9"
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "Box001",
+          "importedName": "Box001",
+          "isBone": false,
+          "tags": []
+        },
+        "name": "Box001",
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "children": [
+        "06BA2CA1-D6CF-4722-AE6C-7A4F16B7BFC0"
+      ],
+      "object3D": {
+        "@class": "BaseObject3D",
+        "enabled": true,
+        "hitVisible": true,
+        "id": {
+          "uuid": "DBA59032-681D-44F3-994F-1DE6BEE10096"
+        },
+        "metadata": {
+          "importedIdentifier": "Bone001",
+          "importedName": "Bone001",
+          "isBone": true,
+          "tags": []
+        },
+        "name": "Bone001",
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              0,
+              1,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0.25366899371147156,
+              0.0687749981880188,
+              0,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "children": [
+        "F21F99EA-2E11-447F-BA74-50007BE4BBC0"
+      ],
+      "object3D": {
+        "@class": "BaseObject3D",
+        "enabled": true,
+        "hitVisible": true,
+        "id": {
+          "uuid": "06BA2CA1-D6CF-4722-AE6C-7A4F16B7BFC0"
+        },
+        "metadata": {
+          "importedIdentifier": "Bone002",
+          "importedName": "Bone002",
+          "isBone": true,
+          "tags": []
+        },
+        "name": "Bone002",
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              0.9999920129776001,
+              0.003967999946326017,
+              0,
+              0,
+              -0.003967999946326017,
+              0.9999920129776001,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              52.69997024536133,
+              -9.000000318337698e-06,
+              1.9999999949504854e-06,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "children": [
+        "572D6D23-CE24-4C51-830C-0DE334A575E8"
+      ],
+      "object3D": {
+        "@class": "BaseObject3D",
+        "enabled": true,
+        "hitVisible": true,
+        "id": {
+          "uuid": "F21F99EA-2E11-447F-BA74-50007BE4BBC0"
+        },
+        "metadata": {
+          "importedIdentifier": "Bone003",
+          "importedName": "Bone003",
+          "isBone": true,
+          "tags": []
+        },
+        "name": "Bone003",
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              0.9999920129776001,
+              -0.003967999946326017,
+              0,
+              0,
+              0.003967999946326017,
+              0.9999920129776001,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              51.67508316040039,
+              0,
+              1.9999999949504854e-06,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "enabled": true,
+        "hitVisible": true,
+        "id": {
+          "uuid": "572D6D23-CE24-4C51-830C-0DE334A575E8"
+        },
+        "metadata": {
+          "importedIdentifier": "Bone004",
+          "importedName": "Bone004",
+          "isBone": true,
+          "tags": []
+        },
+        "name": "Bone004",
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              45.31787109375,
+              0,
+              1.9999999949504854e-06,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
     }
   ],
   "scriptSystem": {
@@ -274,6 +621,12 @@
         "@class": "Script_FogFX",
         "id": {
           "uuid": "0FE3EFC9-A227-47C0-A000-0A281C873A65"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "8C581B28-BF1E-4FB0-A0B3-FB4502021232"
         }
       }
     ]
