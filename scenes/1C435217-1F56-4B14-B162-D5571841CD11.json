@@ -238,6 +238,14 @@
         "visible": true
       }
     },
+
+
+
+
+
+
+
+
     {
       "@class": "BaseNode",
       "children": [
@@ -584,6 +592,14 @@
         "visible": true
       }
     },
+
+
+
+
+
+
+
+
     {
       "@class": "BaseNode",
       "children": [
@@ -706,7 +722,7 @@
             }
           ],
           "skinControllerId": {
-            "uuid": "F929217B-C2CD-4A52-8513-E8798DBBA443"
+            "uuid": "D0996DEB-4E46-4909-B020-0C1138C4A899"
           },
           "static": false
         },
@@ -930,6 +946,14 @@
         "visible": true
       }
     }
+
+
+
+
+
+
+
+
   ],
   "scriptSystem": {
     "@class": "BaseScriptSystem",
